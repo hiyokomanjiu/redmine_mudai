@@ -1,0 +1,6 @@
+redmine_theme_mudai
+
+Redmine用のTheme。
+
+${REDMINE_ROOT}/public/themes/
+に追加して，Redmineを再起動すれば使えるようになる。

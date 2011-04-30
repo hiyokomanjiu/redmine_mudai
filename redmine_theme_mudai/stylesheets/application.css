@@ -1,0 +1,97 @@
+/* import default style sheet */
+@import url(../../../stylesheets/application.css);
+
+/*
+ * wiki
+ */
+/* indent wiki plain text */
+div.wiki {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* no indent wiki headline */
+div.wiki h1, div.wiki h2, div.wiki h3 {
+	margin-left: -20px;
+}
+
+div.wiki h1 {
+	margin-right: -20px;
+}
+
+div.wiki h2 {
+	counter-increment: chapter;
+	counter-reset: section;
+}
+
+div.wiki h2:before {
+	content: counter(chapter) ". ";
+}
+
+div.wiki h3 {
+	counter-increment: section;
+}
+
+div.wiki h3:before {
+	content: counter(chapter) "." counter(section) ". ";
+}
+
+div.wiki h4 {
+	border-bottom-width: 0px;
+	text-decoration: underline;
+}
+
+/* code line number strong */
+div.wiki span.no strong {
+	color: #ff80a0;
+	font-weight: normal;
+}
+
+
+/*
+ * task list
+ */
+/* priority: high */
+table.issues tr.odd.priority-3 {
+	background-color: #ffaadd;
+}
+table.issues tr.even.priority-3 {
+	background-color: #ffccee;
+}
+
+/* status: closed task */
+table.issues tr.odd.closed {
+	background-color: #d0d0d0;
+}
+table.issues tr.even.closed {
+	background-color: #e0e0e0;
+}
+
+/* status: kaiketsu */
+table.issues tr.odd.status-3 {
+	background-color: #88ffbb;
+}
+table.issues tr.even.status-3 {
+	background-color: #aaffbb;
+}
+
+/* status: information */
+table.issues tr.odd.status-8 {
+	background-color: #ffcc66;
+}
+table.issues tr.even.status-8 {
+	background-color: #ffdd88;
+}
+
+/*
+ * create/update task
+ */
+/* issue date input field width */
+input#issue_start_date, input#issue_due_date {
+	width: 72px;
+}
+
+/* number input field text-align */
+input#issue_estimated_hours, input#time_entry_hours {
+	text-align: right;
+}
