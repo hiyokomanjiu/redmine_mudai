@@ -69,7 +69,7 @@ table.issues tr.even.closed {
 
 /* status: kaiketsu */
 table.issues tr.odd.status-3 {
-	background-color: #00ffbb;
+	background-color: #ff88bb;
 }
 table.issues tr.even.status-3 {
 	background-color: #aaffbb;
