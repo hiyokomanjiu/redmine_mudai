@@ -83,6 +83,11 @@ table.issues tr.even.status-8 {
 	background-color: #ffdd88;
 }
 
+/* update column width */
+table.issues td.update_on {
+    width: 11em;
+}
+
 /*
  * create/update task
  */
