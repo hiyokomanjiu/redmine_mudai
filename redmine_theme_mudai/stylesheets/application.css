@@ -93,10 +93,10 @@ table.issues tr.even.status-8 {
 
 /* status: in progress */
 table.issues tr.odd.status-2 {
-    background-color: doggerblue;
+    background-color: lightblue;
 }
 table.issues tr.even.status-2 {
-    background-color: deepskyblue;
+    background-color: aliceblue;
 }
 
 /* update column width */
