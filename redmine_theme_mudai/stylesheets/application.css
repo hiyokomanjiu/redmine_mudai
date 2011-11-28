@@ -11,8 +11,16 @@ div.wiki {
 }
 
 /* no indent wiki headline */
+div#preview h1, div#preview h2, div#preview h3 {
+        margin-left: 0px;
+}
+
 div.wiki h1, div.wiki h2, div.wiki h3 {
 	margin-left: -20px;
+}
+
+div#preview h1 {
+        margin-right: 0px;
 }
 
 div.wiki h1 {
@@ -83,9 +91,17 @@ table.issues tr.even.status-8 {
 	background-color: #ffdd88;
 }
 
+/* status: in progress */
+table.issues tr.odd.status-2 {
+    background-color: doggerblue;
+}
+table.issues tr.even.status-2 {
+    background-color: deepskyblue;
+}
+
 /* update column width */
-table.issues td.update_on {
-    width: 11em;
+tr.issue {
+    white-space: normal;
 }
 
 /*
