@@ -61,42 +61,42 @@ div.wiki span.no strong {
  */
 /* priority: high */
 table.issues tr.odd.priority-3 {
-	background-color: #ffaadd;
+	background-color: #ffe8f0;
 }
 table.issues tr.even.priority-3 {
-	background-color: #ffccee;
+	background-color: #fff0f8;
 }
 
 /* status: closed task */
 table.issues tr.odd.closed {
-	background-color: #d0d0d0;
+	background-color: #e0e0e0;
 }
 table.issues tr.even.closed {
-	background-color: #e0e0e0;
+	background-color: #e9e9e9;
 }
 
 /* status: kaiketsu */
 table.issues tr.odd.status-3 {
-	background-color: #88ffbb;
+	background-color: #dfff60;
 }
 table.issues tr.even.status-3 {
-	background-color: #aaffbb;
+	background-color: #f0ff6f;
 }
 
 /* status: information */
 table.issues tr.odd.status-8 {
-	background-color: #ffcc66;
+	background-color: #fff280;
 }
 table.issues tr.even.status-8 {
-	background-color: #ffdd88;
+	background-color: #fff880;
 }
 
 /* status: in progress */
 table.issues tr.odd.status-2 {
-    background-color: #b0e0e6;
+    background-color: #d0f0ff;
 }
 table.issues tr.even.status-2 {
-    background-color: #afeeee;
+    background-color: #e0f4ff;
 }
 
 /* update column width */
