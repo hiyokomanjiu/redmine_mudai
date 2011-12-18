@@ -66,6 +66,9 @@ table.issues tr.odd.priority-3 {
 table.issues tr.even.priority-3 {
 	background-color: #fff0f8;
 }
+table.issues tr.even.priority-3:hover {
+    background-color: #ffe0e8;
+}
 
 /* status: closed task */
 table.issues tr.odd.closed {
@@ -73,6 +76,9 @@ table.issues tr.odd.closed {
 }
 table.issues tr.even.closed {
 	background-color: #e9e9e9;
+}
+table.issues tr.even.closed:hover {
+    background-color: #f2f2f2;
 }
 
 /* status: kaiketsu */
@@ -82,6 +88,9 @@ table.issues tr.odd.status-3 {
 table.issues tr.even.status-3 {
 	background-color: #d0ff6f;
 }
+table.issues tr.even.status-3:hover {
+	background-color: #e0ff80;
+}
 
 /* status: information */
 table.issues tr.odd.status-8 {
@@ -90,6 +99,9 @@ table.issues tr.odd.status-8 {
 table.issues tr.even.status-8 {
 	background-color: #ffea60;
 }
+table.issues tr.even.status-8:hover {
+	background-color: #fff080;
+}
 
 /* status: in progress */
 table.issues tr.odd.status-2 {
@@ -97,6 +109,9 @@ table.issues tr.odd.status-2 {
 }
 table.issues tr.even.status-2 {
     background-color: #e0f4ff;
+}
+table.issues tr.even.status-2 {
+    background-color: #e8f8ff;
 }
 
 /* update column width */
